@@ -1,0 +1,39 @@
+body, html{ font-family: Arial, Helvetica, sans-serif; font-size: 16px; box-sizing: border-box; margin: 0; padding: 0;} /* PER IL FONT  */
+
+
+:root { --menu-bg: #17a2b8; --menu-color: #fff;}
+
+.header{background-color: var(--menu-bg); position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; padding: 10px 15 px;}
+.header_content{max-width: 1200px; width: 100%; margin: 0 auto;display: flex;justify-content: space-between; }
+
+.header_titolo,
+.header_quick{display: flex; align-items: center; color:var(--menu-color)} /* PER I link in alto a tutto   */
+
+.header_menu{padding: 0;margin: 0;}
+.header_menu li{display: inline-block;}
+.header_menu li a{color: var(--menu-color);opacity: 0.8;display: block; padding: 16px;font-size: 15px;} /* PER I link in alto a tutto   */
+
+/*sistema testo homepage */
+h1, .text-1{font-size: 2rem; margin-bottom: 20px;margin-left: 20px;}
+h2, .text-2{font-size: 1rem; margin-bottom: 1rem;margin-left: 20px}
+p1, .text-3{font-size: 1rem; margin-bottom: 1rem;margin-left: 20px}
+
+/*sistema di bottoni */
+.button{
+    font-size: 0.5rm; text-transform: uppercase;background: #021518; color: #fff;
+    text-decoration:underline;padding: 14px 25px; display: inline-block;margin-left: 20px;
+    border-radius: 4px; font-weight: 700; 
+}
+.button:hover{background: #444;}
+
+
+/*sistema di cover  in background */
+
+.cover{
+    text-align: center; padding: 10px; margin: 0px;min-height: 600px;width: 100%;
+    display: flex; flex-direction: column; justify-content: center;
+    background-position: center center;background-size: cover;
+}
+.cover {color: #002657}
+
+

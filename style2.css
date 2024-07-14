@@ -1,0 +1,67 @@
+body, html{ 
+    
+    font-family: Arial, Helvetica, sans-serif; font-size: 16px; box-sizing: border-box; margin: 0; padding: 0;  /* PER IL FONT  */
+
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #17a2b8;
+    height: 100vh;
+
+
+} 
+
+:root { --menu-bg: #17a2b8; --menu-color: #fff;}
+
+
+
+
+.header{background-color: var(--menu-bg); position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; padding: 10px 15 px;}
+.header_content{max-width: 1200px; width: 100%; margin: 0 auto;display: flex;justify-content: space-between; }
+
+.header_titolo,
+.header_quick{display: flex; align-items: center; color:var(--menu-color)} /* PER I link in alto a tutto   */
+
+.header_menu{padding: 0;margin: 0;}
+.header_menu li{display: inline-block;}
+.header_menu li a{color: var(--menu-color);opacity: 0.8;display: block; padding: 16px;font-size: 15px;} /* PER I link in alto a tutto   */
+
+/*sistema testo votazione */
+h1, .text-1{font-size: 1rm;margin-top: 100px;margin-bottom: auto;margin-left: 20px; text-align: center;}
+h2, .text-2{font-size: 20px;margin-top: 40px;margin-left: 1rem; margin-inline: 20px; font-weight: normal;text-align: center;}
+p1, .text-3{font-size: 18px;margin-top: 50px;margin-left: 100rem; margin-inline: 20px; font-weight: normal; display: flex; padding-left: 30rem;align-items: center;}
+
+/*sistema di bottoni */
+.button{
+    font-size: 0.5rm; text-transform: uppercase;background: #021518; color: #fff;
+    text-decoration:underline;padding: 14px 25px; display: inline-block;margin-left: 20px;
+    border-radius: 4px; font-weight: 700; 
+}
+.button:hover{background: #444;}
+
+.cover{
+    text-align: center; padding: 10px; margin: 0px;min-height: 600px;width: 100%;
+    display: flex; flex-direction: column; justify-content: center;
+    background-position: center center;background-size: cover;
+}
+.cover {color: #002657}
+
+
+.white-box {
+    border: 2px solid #000; /* Cambia il colore del bordo se necessario */
+    padding: 30px; /* Imposta il padding come desiderato */
+    border-radius: 5px;
+    background-color: #fff; /* Imposta il colore di sfondo bianco */
+   
+     margin-left: 200px; /* stringi verso sinistra*/
+     margin-right: 200px; /* stringi verso destra*/
+    
+}
+
+
+
+
+
+
+
